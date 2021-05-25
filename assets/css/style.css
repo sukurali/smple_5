@@ -1,0 +1,196 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	
+	margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 100%;
+    line-height: 1;
+   
+	font-family: 'Lato', sans-serif;
+}
+a.letter-spacing {
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+a{
+	color:black;
+}
+.header a{
+	
+	color:#50555c;
+}
+
+.header a:hover{
+	
+	color: #3388CC !important;
+}
+.list{
+	
+	color:#50555c;
+	font-size:16px;
+}
+a.border_color.list-unstyle {
+    list-style: none;
+    text-decoration: none;
+    color: #202224;
+    border-bottom: 1px solid #af9c9c;
+}
+a.list_aongkor1 {
+    list-style: none;
+    text-decoration: none;
+    color: #202224;
+    border-bottom: 1px solid #af9c9c;
+}
+a.list_aongkor2 {
+    list-style: none;
+    text-decoration: none;
+    color: #202224;
+    border-bottom: 1px solid #af9c9c;
+}
+a.list_aongkor1:hover {
+    
+    
+	color: #6C88CC;
+	
+	}a.list_aongkor2:hover {
+    
+    
+	color: #6C88CC;
+	
+}
+a.border_color.list-unstyle:hover {
+	
+	
+    color: #6C88CC;
+	
+}
+img.profile_pic {
+    width: 200px;
+    height: 250px;
+}
+.main-manu{
+	margin-top:80px;
+	padding-left:130px;
+}
+.sidebar h3{
+	margin-top:15px;
+}
+.sidebar a:hover{
+	color:#4EAFB3;
+}
+
+.bio{
+	font-size:15px;
+	width:85%;
+	color:#50555c;
+	line-height:25px;
+}
+.pubpro{
+	margin-top:30px;
+}
+h1.pubpro {
+    margin-top: 90px;
+    margin-bottom: 25px;
+}
+.text-blog p{
+	
+	letter-spacing:1px;
+	font-size:100%;
+	line-height:25px;
+}
+
+.text-blog10 {
+	width:55%;
+	
+}
+
+.blog-extra_a a{
+    font-size: 18px;
+    color: #4eafb3;
+}
+
+.list {
+    line-height: 25px;
+}
+.border_color {
+	
+    text-decoration: none;
+    list-style: none;
+	font-size:25px;
+}
+.list_aongkor{
+	font-size:25px;
+}
+h1.headline.mb-5.pb-5 {
+    color: #968a8a;
+    font-size: 24px;
+    text-align: center;
+}
+.sizxr{
+	font-size:15px;
+	margin-top:10px;
+}
+/* The side navigation menu */
+.sidebar {
+margin: 0;
+padding: 0;
+width: 200px;
+position: fixed;
+height: 100%;
+overflow: auto;
+}
+
+/* Sidebar links */
+.sidebar a {
+display: block;
+color: black;
+padding: 5px;
+
+
+}
+
+
+
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+margin-left: 400px;
+padding: 1px 16px;
+height: 1000px;
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+.sidebar {
+width: 100%;
+height: auto;
+position: relative;
+}
+
+div.content {margin-left: 0;}
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+.sidebar a {
+text-align: center;
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
